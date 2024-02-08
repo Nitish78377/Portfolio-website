@@ -1,0 +1,261 @@
+/* Body */
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: lighter;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+}
+
+/* Nav bar */
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 95px;
+    width: 100%;
+    background-color: rgb(18, 18, 62);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+}
+
+.nav-menu {
+    display: flex;
+    padding: 0px 300px;
+}
+
+.nav-menu li {
+    list-style: none;
+    margin: 0px 45px;
+    font-size: 1.2rem;
+
+}
+
+.nav-menu li a {
+    text-decoration: none;
+
+}
+
+.nav-menu li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.3rem;
+
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+/* First section */
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 0px;
+    align-items: center;
+}
+
+.first-section>div {
+    width: 30%;
+}
+
+.left-sec {
+    font-size: 3rem;
+}
+
+.left-sec .btn {
+    padding: 12px;
+    color: white;
+    background: #342d7c;
+    border: 2px solid white;
+    border-radius: 11px;
+    font-size: 20px;
+
+
+}
+
+.left-sec .buttons,
+a {
+
+    padding: 33px 0px;
+    text-decoration: none;
+}
+
+.right-sec img {
+    width: 80%;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
+
+/* Second section */
+
+.second-section {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.second-section h1 {
+    font-size: 1.9rem;
+}
+
+.second-section .box {
+    width: 79vw;
+    background-color: white;
+    height: 2px;
+    margin: 50px 0px;
+    display: flex;
+}
+
+.second-section .vertical-box {
+    width: 1px;
+    background-color: white;
+    height: 138px;
+    margin: 0px 200px;
+
+}
+
+
+.second-section .img-top-1 {
+    width: 31px;
+    position: relative;
+    top: -41px;
+    left: -6px;
+}
+
+.second-section .img-top-2 {
+    width: 141px;
+    position: relative;
+    top: -37px;
+    left: -8px;
+}
+
+.second-section .img-top-3 {
+    width: 79px;
+    position: relative;
+    top: -37px;
+    left: -12px;
+}
+
+.second-section .img-top-4 {
+
+    width: 59px;
+    position: relative;
+    top: -33px;
+    left: -3px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 106px;
+    width: 134px;
+}
+
+.vertical-title-4 {
+    position: relative;
+    top: 109px;
+    width: 134px;
+}
+
+.vertical-desc {
+
+    color: grey;
+    position: relative;
+    font-size: 11px;
+}
+
+/* second section end */
+
+.thrid-section {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.thrid-section h1 {
+    font-size: 1.9rem;
+}
+
+.thrid-section .box {
+    width: 79vw;
+    background-color: white;
+    height: 2px;
+    margin: 50px 0px;
+    display: flex;
+}
+
+.thrid-section .vertical-box-thrid {
+    width: 1px;
+    background-color: white;
+    height: 138px;
+    margin: 0px 200px;
+
+}
+
+
+.thrid-section .vertical-title {
+    position: relative;
+    top: 133px;
+    width: 212px;
+    font-size: 1.5rem;
+}
+
+.thrid-section .vertical-desc {
+    color: white;
+    position: relative;
+    font-size: 17px;
+    padding: 10px 6px;
+    width: 202px;
+}
+
+
+
+/* Footer section */
+footer {
+    background-color: #0e0e1a;
+    /* height: 233px; */
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px;
+}
+
+/* Utility classes */
+main hr {
+    border: 0px;
+    background: #5952d6;
+    height: 1px;
+    margin: 60px 80px;
+}
+
+.text-grey {
+    color: grey;
+}
